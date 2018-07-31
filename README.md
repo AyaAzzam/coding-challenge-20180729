@@ -1,5 +1,4 @@
-
-###Models and Resources
+##Models and Resources
 the system has the following resources:
 
 - Counter 
@@ -7,13 +6,13 @@ the system has the following resources:
 - ConsumptionReport 
 - CounterReading that represents the callback from the electricity counters.
 
-###Architecture layers
+##Architecture layers
 - Controllers 
 - Services
 - Repositories and Domain models
 - Mappers for DTOs
 
-###technologies and frameworks
+##technologies and frameworks
 - Spring Boot
 - Java 8
 - mysql for database 
@@ -23,7 +22,7 @@ the system has the following resources:
 
 
 
-###Testing strategy (**)
+##Testing strategy (**)
 - I prefer mixing between Unit and Integration testing 
 - I uses BDDMockito and AssertJ to write human-readable, fluent-style tests.
 - Strategy 1: MockMVC in Standalone Mode 
@@ -32,5 +31,5 @@ the system has the following resources:
 
 
 
-#####Note: 
+**Note**: 
 (**) means not included or added in this repo.
